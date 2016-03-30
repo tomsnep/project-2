@@ -30,6 +30,6 @@ gulp.task('default', ['imgopt']);
 ```
 
 There was 640.29kB (44.4%) saved:
-![CLI_screenshot](/test/Gulp_Image_optimalization/CLI_screenshot.png)
+![CLI_screenshot](/tests/Gulp_Image_optimalization/CLI_screenshot.png)
 
 I decided to not upload the timeline results as they are very unreliable in my opinion. When i tested the timeline after the image optimalization the website rendered 3s slower, 5 minutes later it rendered 2s faster... Not very trustworthy.
