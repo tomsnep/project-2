@@ -34,15 +34,15 @@ There was 640.29kB (44.4%) saved:
 
 I decided to not upload the timeline results as they are very unreliable in my opinion. When i tested the timeline after the image optimalization the website rendered 3s slower, 5 minutes later it rendered 2s faster... Not very trustworthy.
 
-## Accesibility
+## Accessibility
 
 Tool: [Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb/related)  
 
 ###Meaningful images should not be used in element backgrounds
-![meaningful images](/tests/ADT_meaningful_img.png)
+![meaningful images](/tests/Accessibility/ADT_meaningful_img.png)
 
 The logo images in ```partup:client-header``` and ```partup:client-footer``` should be a img tag.  
-Instead of the ```<figure>``` there should be a ```<img>``` tag  
+Instead of the ```<figure>``` there should be a ```<img>``` tag:  
 ```
 <template name="Header_logo">
     <h1>
