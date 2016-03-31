@@ -86,5 +86,15 @@ Therefore the css also needs a little adjustment the background needs to be remo
         box-shadow: none
         background-color: transparent
 ```
+###Language attribute html element
+The language of the document is not identified. Identifying the language of the page allows screen readers to read the content in the appropriate language. It also facilitates automatic translation of content.
+```<html lang="en">```
 
+###Redundant link in the footer
+
+The ```footer.html``` contains a redundant link, this results in additional navigation and repetition for keyboard and screen reader users and can cause confusion for the user.  
+```
+<li><a href="{{ pathFor 'about' }}">{{_ 'footer-menu-company-about'}}</a></li>
+<li><a href="{{ pathFor 'about' }}">{{_ 'footer-menu-company-community'}}</a></li>
+```
 
