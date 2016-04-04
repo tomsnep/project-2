@@ -104,7 +104,7 @@ The ```footer.html``` contains a redundant link, this results in additional navi
 
 ###Semantic HTML
 
-For accessibility semantic HTML is very important. At the moment, the HTML structure not completely built up semantic. The header structure is not quite right and there are many sections only used purely for styling. A section must contain a ```<header>``` or ```<h>``` element, therefore it is better to use a ```<div>``` as purely comes to styling. To make the HTML good accessibel the sections are replaced with a ```<div>```. Together with Sem Bakkum we analyzed the HTML source and made some adjustments, in this example we only changed the first part of the page:
+For accessibility semantic HTML is very important. At the moment, the HTML structure not completely built up semantic. The header structure is not quite right and there are many sections only used purely for styling. A section must contain a ```<header>``` or ```<h>``` element, therefore it is better to use a ```<div>``` as purely comes to styling. To make the HTML good accessibel the sections are replaced with a ```<div>```. Also the ```<a href="">``` element wich is used as a button has a ```<button>``` tag. This is a more semantic markup and better for screenreaders. Together with Sem Bakkum we analyzed the HTML source and made some adjustments, in this example we only changed the first part of the page:
 
 ```
 <!DOCTYPE html>
@@ -224,4 +224,3 @@ For accessibility semantic HTML is very important. At the moment, the HTML struc
 ​
 </html>
 ```
-
